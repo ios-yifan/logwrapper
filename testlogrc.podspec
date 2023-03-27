@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "testlogrc"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of testlogrc."
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "RongWrapperLog.xcframework/ios-arm64_armv7/RongWrapperLog.framework/Headers.{h,m}"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-  spec.vendored_frameworks = 'Frameworks/*.xcframework'
+  spec.vendored_frameworks = 'RongWrapperLog.xcframework'
 
 
   # spec.library   = "iconv"
