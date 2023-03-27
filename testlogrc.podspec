@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "testlogrc"
-  spec.version      = "1.0.0"
+  spec.version      = "2.0.0"
   spec.summary      = "A short description of testlogrc."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ios-yifan/logwrapper", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/ios-yifan/logwrapper.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
